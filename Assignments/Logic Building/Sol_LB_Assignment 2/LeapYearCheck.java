@@ -13,8 +13,7 @@ public class LeapYearCheck {
 
     public static void main(String args[]) {
         int year1 = 2024;
-
-        checkLeap(year1);
+        LeapYearCheck.checkLeap(year1);
 
         int year2 = 1900;
         checkLeap(year2);
